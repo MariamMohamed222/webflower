@@ -1,0 +1,248 @@
+*{
+    direction: rtl;
+    padding: 0%;
+    margin: 0%;
+}
+/* start first div */
+.head{
+    background-color: rgb(248, 246, 246);
+}
+.head .container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    
+}
+.head .container .right {
+    display: flex;
+     width: 50%;
+     margin-bottom: 10px;
+     margin-top: 20px;
+}
+
+.head .container .right p{
+    margin-right: 40px;
+    font-size: 23px;
+    font-family: "Amiri", serif;
+}
+
+.head .container .right input{
+    
+    text-align: center;
+    margin-right: 40px;
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-radius: 5%;
+    box-shadow: 1px 1px rgb(211, 205, 205);
+}
+.head .container .left{
+    margin-right: 80px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.d-flex{
+    display: flex;
+    font-size: 16px;
+    
+}
+.c-grey{
+    color: grey;
+}
+.head .container .left .track p{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.head .container .left .track i{
+    color: rgb(23, 88, 14);
+    font-size: 20px;
+}
+.head .container .left .track select{
+    font-size: 16px;
+    
+    border: none;
+     background-color: rgb(248, 246, 246);
+}
+.head .container .left div{
+    margin-right: 15px;
+}
+.head .container .left .divid{
+    width:3px;
+    height: 20px;
+    background-color: grey;
+    
+}
+
+.head .container .left .login p{
+    margin-right: 10px;
+}
+
+/* End first div */
+
+ /* Start secound div */
+ .secound-div{
+    border-bottom: 1px solid rgb(212, 205, 205);
+    padding-bottom: 40px;
+ }
+ .secound-div .container{
+    margin-top: 20px;
+    display: flex;
+    
+ }
+.secound-div .container .right{
+    width: 80%;
+    display: flex;
+    margin-right: 30px;
+    margin-top: 15px;
+    font-size: 10px;
+    
+}
+.secound-div .container .right select{
+    font-size: 16px;
+    color: gray;
+    font-family: "Amiri", serif;
+    border: none;
+}
+.secound-div .container .right a{
+    text-decoration: none;
+    margin-left: 16px;
+    font-size: 14px;
+    color: gray;
+}
+.secound-div .container .left{
+    display: flex;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.secound-div .container .left p{
+    margin-left: 10px;
+    font-family: "Beiruti", sans-serif;
+}
+/* End secound div */
+
+/* Start photo div */
+
+.gallery .container{
+    width: 100%;
+}
+.gallery .container .top{
+    font-size: 40px;
+    margin-top: 40px;
+    color: rgb(9, 90, 41);
+}
+.gallery .container .bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.gallery .container .bottom .d1{
+    width: 34%;
+    height: 500px;
+    background-image: url("img1.png");
+    background-size: cover;
+    border-radius: 5%;
+   margin-left: 1%;
+   position: relative;
+    
+}
+.gallery .container .bottom .d2{
+    width: 34%;
+    height: 500px;
+    background-image: url("img2.png");
+    background-size: cover;
+    border-radius: 5%;
+    margin-left: 1%;
+    position: relative;
+}
+.gallery .container .bottom .d3{
+    width: 34%;
+    height: 500px;
+    background-image: url("img3.png");
+    background-size: cover;
+    border-radius: 5%;
+    margin-left: 1%;
+    position: relative;
+}
+.gallery .container .bottom  .effects{
+    position: absolute;
+    width: 93%;
+   height: 130px;
+    bottom: 0px;
+    font-size: 30px;
+    color: white;
+    margin-right: 25px;
+    backdrop-filter: blur(3px);
+}
+.gallery .container .bottom p{
+    margin: 15px 0px;
+}
+.gallery .container .bottom  button{
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 40%;
+    padding: 5px;
+    color: white;
+    border: 2px solid white;
+}
+.gallery .container .di{
+    width: 40%;
+    height: 2px;
+    background-color:rgb(9, 90, 41) ;
+    margin: 30px 0px;
+}
+/* End photo div */
+
+/* Start circle div */
+.circles .container{
+    width: 100%;
+}
+.circles .container .up{
+    margin-top: 70px;
+    color: rgb(9, 90, 41);
+    font-size: 40px;
+    width: 100%;
+}
+.circles .container .down{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.circles .container .down div{
+    margin-top: 10px;
+}
+.circles .container .down p{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(9, 90, 41);
+}
+.circles .container .photo{
+    width: 100%;
+}
+.circles .container .di{
+     width: 60%;
+    height: 2px;
+    background-color:rgb(9, 90, 41) ;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+}
+/* End circle div */
+
+/* Start vedios div */
+.container{
+   width:100%;
+}
+.vedios{
+    margin-bottom: 15px;
+}
+.vedio{
+    margin-top: 70px;
+    color: rgb(9, 90, 41);
+     font-size: 40px;
+}
+
+/* End vedios div */
